@@ -7,17 +7,17 @@ body {
   overflow-x: hidden;
 }
 
-/* ====== VIDÉO DE FOND ====== */
-.bg-video {
+/* ====== img DE FOND ====== */
+/* Image de fond */
+.bg-image {
+  background: url('./img/ice-cube-background.jpg') no-repeat center center/cover;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  z-index: -2;
+  z-index: -1; /* Derrière le contenu */
 }
-
 /* ====== FILTRE SOMBRE ====== */
 .overlay {
   position: fixed;
@@ -25,7 +25,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(20, 20, 20, 0.65);
+  background-color: rgba(20, 20, 20, 0.332);
   z-index: -1;
 }
 
