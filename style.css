@@ -111,6 +111,14 @@ body {
 .btn-yahoo:hover {
   background-color: #4801a3;
 }
+.btn-instagram {
+  background-color: #E4405F;
+  color: white;
+}
+.btn-instagram:hover {
+  background-color: #c32a48;
+}
+
 
 .btn-website {
   background-color: #333;
